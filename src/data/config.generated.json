@@ -1,0 +1,521 @@
+{
+  "generatedAt": "2026-11-09T16:34:10.167Z",
+  "chain": {
+    "chainId": 200010,
+    "name": "Rome Hadrian",
+    "network": "devnet",
+    "status": "live",
+    "rpcUrl": "https://hadrian.testnet.romeprotocol.xyz/",
+    "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/",
+    "romeEvmProgramId": "RPTWwELXAY4KC9ZPHhaxp7Sq1hHtU3HNEgLbSegCcWf",
+    "nativeCurrency": {
+      "name": "Rome Hadrian",
+      "symbol": "USDC",
+      "decimals": 18
+    },
+    "solana": {
+      "cluster": "devnet",
+      "explorerUrl": "https://explorer.solana.com",
+      "rpc": "https://api.devnet.solana.com"
+    }
+  },
+  "tokens": [
+    {
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "mintId": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+      "symbol": "USDC",
+      "name": "Rome Hadrian",
+      "decimals": 18,
+      "kind": "gas"
+    },
+    {
+      "address": "0xbce339ba4c3a8de3bb8af1c5539e6ac11da3112d",
+      "mintId": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+      "symbol": "wUSDC",
+      "name": "Rome USDC",
+      "decimals": 6,
+      "kind": "spl_wrapper"
+    },
+    {
+      "address": "0x02aeace038269f9961c93d04dcacd6fb3adfa55f",
+      "mintId": "6F5YWWrUMNpee8C6BDUc6DmRvYRMDDTgJHwKhbXuifWs",
+      "symbol": "wETH",
+      "name": "Rome ETH",
+      "decimals": 8,
+      "kind": "spl_wrapper"
+    },
+    {
+      "address": "0x39f36444fcb79b3e691544aee2a832ebef54ca9f",
+      "mintId": "So11111111111111111111111111111111111111112",
+      "symbol": "wSOL",
+      "name": "Rome SOL",
+      "decimals": 9,
+      "kind": "spl_wrapper"
+    },
+    {
+      "address": "0x2b13ba16a429bf630f94882e477fe775d34b7c74",
+      "symbol": "ARCV",
+      "name": "Mineral Vault I",
+      "decimals": 6,
+      "kind": "erc20"
+    },
+    {
+      "address": "0x7d17492435a97762bf159cde400035246389139f",
+      "symbol": "BPT2",
+      "name": "Bloom Pool Test 2",
+      "decimals": 6,
+      "kind": "erc20"
+    },
+    {
+      "address": "0xc29c49f68d56c4c4c8de88b49eeeeb98dc21bd7a",
+      "symbol": "RSDT",
+      "name": "Rome Short-Duration Treasury Fund",
+      "decimals": 18,
+      "kind": "erc20"
+    },
+    {
+      "address": "0xc4a9aa090cf4b2d500c8b7af3c6fe92aa6c8b7be",
+      "symbol": "FXS",
+      "name": "Fixture Sale",
+      "decimals": 6,
+      "kind": "erc20"
+    },
+    {
+      "address": "0xfd6b3b8fcd204120e31089c601b112843906535f",
+      "symbol": "FXG",
+      "name": "Fixture Gated",
+      "decimals": 6,
+      "kind": "erc20"
+    }
+  ],
+  "contracts": [
+    {
+      "name": "ERC20SPLFactory",
+      "address": "0x37c13e4ff21fb914eb24014dcbd0f8dbeaa31078"
+    },
+    {
+      "name": "RomeBridgePaymaster",
+      "address": "0xe5b515d69590044a994d88c8bb8a87b36cd7b6d2"
+    },
+    {
+      "name": "RomeBridgeWithdraw",
+      "address": "0x6eeacb4e6006b7a29c8141f69b6c75346dedec73"
+    },
+    {
+      "name": "OracleAdapterFactory",
+      "address": "0x52b008771fc95b4674a4f3533570b3d223f27f68"
+    },
+    {
+      "name": "PythPullAdapterImpl",
+      "address": "0x0c9989056acf0ec225f9968e5369dea368a7c044"
+    },
+    {
+      "name": "SwitchboardV3AdapterImpl",
+      "address": "0xcdcca98e7d2087447d6ceeb764478903476ae355"
+    },
+    {
+      "name": "BatchReader",
+      "address": "0x2869f0a96572e7fb15036656e9a32fd17346499b"
+    },
+    {
+      "name": "MeteoraDAMMv1Factory",
+      "address": "0xd68b355f62643de0ec40243cba8f699f959ea3c4"
+    },
+    {
+      "name": "SimpleActivator",
+      "address": "0xc478604d116222190750fe9a52dd3d6ae9140212"
+    },
+    {
+      "name": "WrappedRSOL",
+      "address": "0x628799d11c37aEad17e3B6b7F4C90239c422AdbA"
+    },
+    {
+      "name": "Multicall3",
+      "address": "0xb7180d3c46632b582b99d9af3daae394fab9ae4c"
+    },
+    {
+      "name": "UniswapV2Factory",
+      "address": "0x0aE3020964F67c8bA26Cf3dd0589078d3af82572"
+    },
+    {
+      "name": "UniswapV2Router02",
+      "address": "0x2e24F6cb4d072d38b60966Fb04e698E949717B8c"
+    },
+    {
+      "name": "RomeswapMinimalRouter",
+      "address": "0x0986CAfEC1214Ef4Cfc046A59743DAA7eAd0BFcb"
+    },
+    {
+      "name": "ERC20Factory",
+      "address": "0x19054EE7567B8Be49f43a562C25a6d584937A93A"
+    },
+    {
+      "name": "UniswapV3Factory",
+      "address": "0xD9E323088561D40267767b52252595ea9cF1D5bD"
+    },
+    {
+      "name": "SwapRouter",
+      "address": "0x08CA15F54b2bf33AB695548B08101d7174eF83cA"
+    },
+    {
+      "name": "NonfungiblePositionManager",
+      "address": "0x0D2BCEb16fF7D7c209083F8Cd33176e221084d1B"
+    },
+    {
+      "name": "QuoterV2",
+      "address": "0x7BdBFbdAEB2ed0E8DA6F7FD8804bE11f86BB68dd"
+    },
+    {
+      "name": "NFTDescriptor",
+      "address": "0x6C8fFeFCC01Af82Ba52736e5EFD3Fb7b608943e2"
+    },
+    {
+      "name": "NonfungibleTokenPositionDescriptor",
+      "address": "0x351c5C00330077234827Cb14D7b2D37153aEE5fc"
+    },
+    {
+      "name": "TickLens",
+      "address": "0x357D65dAc11B769F9a80D9Dc21459a2D177324e3"
+    },
+    {
+      "name": "V3Migrator",
+      "address": "0xE90244bC8F01F19AC3752f3e65C7AfC638687475"
+    },
+    {
+      "name": "PoolAddressesProvider",
+      "address": "0x72329174d4d8c557C43D1c3eA9EEe74f15598473"
+    },
+    {
+      "name": "ACLManager",
+      "address": "0xd71B29F17861dE5a67551B494Dbd2eC2438bB87f"
+    },
+    {
+      "name": "AavePool",
+      "address": "0x54701445dD60E29152eD7B4d78e4091c7678c58C"
+    },
+    {
+      "name": "PoolConfigurator",
+      "address": "0x8bc4d597153188317f3Ec175f546efdAe497c037"
+    },
+    {
+      "name": "AaveOracle",
+      "address": "0xafb20337173c62241B9Fee64ffCd53f6a9Dd90D5"
+    },
+    {
+      "name": "AaveProtocolDataProvider",
+      "address": "0xd06528561115fdaeED8E1b066B589469EB5fE6Fb"
+    },
+    {
+      "name": "DefaultReserveInterestRateStrategyV2",
+      "address": "0x1B06B94b068E3EE08896D97199663Dc3E5f8D2F4"
+    },
+    {
+      "name": "AaveAToken-wUSDC",
+      "address": "0xc8b14eA508d5d4a542cE3d099d11Ce4bD296cc42"
+    },
+    {
+      "name": "AaveAToken-wETH",
+      "address": "0x95A0F06deF3067e2D16cCC7C45a7C9E8CA50CEAE"
+    },
+    {
+      "name": "AaveVariableDebtToken-wETH",
+      "address": "0x1c88f3FA4CA22612ce5CCbe3Aa6053B9516831fd"
+    },
+    {
+      "name": "Permit2",
+      "address": "0x8f0003BF88fD5C2f0d396F2FFC3596c9E7C7C342"
+    },
+    {
+      "name": "UniswapV4PoolManager",
+      "address": "0x8a281Be9B5173B2F52328437eAa0d272791707f7"
+    },
+    {
+      "name": "UniswapV4PositionManager",
+      "address": "0xbdF877D66CAb596a3C47Be42e7AE0b51365F6BC5"
+    },
+    {
+      "name": "UniswapV4PositionDescriptor",
+      "address": "0xfE4fBd80CA745ecc0a27998Be089B96E242eF4F5"
+    },
+    {
+      "name": "UniswapV4StateView",
+      "address": "0xAEC15915a24Ed942BA1dbb7f1546ff5F2712a480"
+    },
+    {
+      "name": "UniswapV4Quoter",
+      "address": "0xf6d828B97604c82C834B090C83043C0cb15F1487"
+    },
+    {
+      "name": "UniswapV4UniversalRouter",
+      "address": "0xF2e9e8Da7587b4C6e2fd8c2F89171ff2F5f81e74"
+    },
+    {
+      "name": "CachedPythAdapterImpl",
+      "address": "0xb578b3fff26b0c099945b7c35c37f4768225b6b0"
+    },
+    {
+      "name": "CachedFeedAdapterImpl",
+      "address": "0x78346e04192a439ad470908241bb2c78b29b2736"
+    }
+  ],
+  "devnetPrograms": {
+    "splToken": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "splToken2022": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+    "associatedToken": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+    "systemProgram": "11111111111111111111111111111111",
+    "memo": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+    "wormholeCore": "3u8hJUVTA4jH1wYAyUur7FFZVQ8H635K3tSHHF4ssjQ5",
+    "wormholeTokenBridge": "DZnkkTmCiFWfYTfT41X3Rd1kDgozqzxWaHqsw6W4x2oe",
+    "cctpMessageTransmitter": "CCTPmbSD7gX1bxKPAmg77w8oFzNFpaQiQUWD43TKaecd",
+    "cctpTokenMessenger": "CCTPiPYPc6AsJuwueEnWgSgucamXDZwBd53dQ11YiKX3",
+    "stakePool": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+    "marinade": "MarBmsSgKXdrN1egZf5sqe1TMai9K1rChYNDJgjq7aD",
+    "raydiumAmmV4": "HWy1jotHpo6UqeQxx49dpYYdQB8wj9Qk9MdxwjLvDHB8",
+    "raydiumCpmm": "CPMDWBwJDtYax9qW7AyRuVC19Cc4L4Vcy4n2BHAbHkCW",
+    "raydiumClmm": "devi51mZmdwUJGU9hjN27vEz64Gps7uUefqxg27EAtH",
+    "meteoraDlmm": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "meteoraDammV1": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB",
+    "meteoraDammV2": "cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG",
+    "orcaWhirlpool": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "phoenix": "PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY",
+    "pumpFun": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+    "pumpSwap": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+    "mangoV4": "4MangoMjqJ2firMokCjjGgoK8d4MXcrgL7XJaL3w6fVg",
+    "driftV2": "dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH",
+    "streamflow": "HqDGZjaVRXJ9MGRQEw7qDc2rAr6iH1n1kAQdCZaCMfMZ",
+    "sns": "namesLPneVptA9Z5rqUDD9tMTWEJwofgaYwp8cawRkX",
+    "squadsV4": "SQDS4ep65T869zMMBKyuUq6aD6EgTu8psMjkvj52pCf",
+    "splGovernance": "GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw",
+    "jupiterV6": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4"
+  },
+  "mainnetPrograms": {
+    "splToken": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "splToken2022": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+    "associatedToken": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+    "systemProgram": "11111111111111111111111111111111",
+    "memo": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+    "wormholeCore": "worm2ZoG2kUd4vFXhvjh93UUH596ayRfgQ2MgjNMTth",
+    "wormholeTokenBridge": "wormDTUJ6AWPNvk59vGQbDvGJmqbDTdgWgAqcLBCgUb",
+    "cctpMessageTransmitter": "CCTPmbSD7gX1bxKPAmg77w8oFzNFpaQiQUWD43TKaecd",
+    "cctpTokenMessenger": "CCTPiPYPc6AsJuwueEnWgSgucamXDZwBd53dQ11YiKX3",
+    "stakePool": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+    "marinade": "MarBmsSgKXdrN1egZf5sqe1TMai9K1rChYNDJgjq7aD",
+    "raydiumAmmV4": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8",
+    "raydiumCpmm": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C",
+    "raydiumClmm": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "meteoraDlmm": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "meteoraDammV1": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB",
+    "meteoraDammV2": "cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG",
+    "orcaWhirlpool": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "phoenix": "PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY",
+    "pumpFun": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+    "pumpSwap": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+    "kaminoLend": "KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD",
+    "kaminoFarms": "FarmsPZpWu9i7Kky8tPN37rs2TpmMrAZrC7S7vJa91Hr",
+    "mangoV4": "4MangoMjqJ2firMokCjjGgoK8d4MXcrgL7XJaL3w6fVg",
+    "driftV2": "dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH",
+    "marginfiV2": "MFv2hWf31Z9kbCa1snEPYctwafyhdvnV7FZnsebVacA",
+    "streamflow": "strmRqUCoQUgGUan5YhzUZa6KqdzwX5L6FpUxfmKg5m",
+    "sns": "namesLPneVptA9Z5rqUDD9tMTWEJwofgaYwp8cawRkX",
+    "squadsV4": "SQDS4ep65T869zMMBKyuUq6aD6EgTu8psMjkvj52pCf",
+    "splGovernance": "GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw",
+    "jupiterV6": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4"
+  },
+  "deployment": {
+    "appName": "RubiconArb",
+    "deployedAt": "2026-11-09T16:27:27.972Z",
+    "hadrian": {
+      "chainId": 200010,
+      "name": "Rome Hadrian",
+      "rpcUrl": "https://hadrian.testnet.romeprotocol.xyz/",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/",
+      "romeEvmProgramId": "RPTWwELXAY4KC9ZPHhaxp7Sq1hHtU3HNEgLbSegCcWf",
+      "contractAddress": "0x6e2d98772a8a6444ff63a8b0d1b4511ebcd2ca9f",
+      "deployTxHash": "0x554593805a74086eb4962f31f471ffbe60c98aa53086d7b844cfc10508899a41",
+      "deploySolanaSig": "4q1iAnr2GxKuidQ11gBryPnaXTzuHjqbcfMYPDu3Ch1or3XnpXPk2pVCGBYhCpeCXPhUTyqAxSYfL82wgoeHLtDK",
+      "deployer": "0x91cB572164c865Cbf323CF866FDa6e01e35C02D0",
+      "contractExternalPda": "0xcfa0fefbd00af9a7f512e6448ca6370fead9cbe6ceb9ec9a92dcf510c4408431",
+      "wusdc": "0xbce339ba4c3a8de3bb8af1c5539e6ac11da3112d",
+      "usdcMint": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+      "uniswapV3Router": "0x08CA15F54b2bf33AB695548B08101d7174eF83cA",
+      "uniswapV4PoolManager": "0x8a281Be9B5173B2F52328437eAa0d272791707f7",
+      "meteoraDammFactory": "0xd68b355f62643de0ec40243cba8f699f959ea3c4",
+      "solanaPrograms": {
+        "splToken": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "splToken2022": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "associatedToken": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+        "systemProgram": "11111111111111111111111111111111",
+        "memo": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+        "wormholeCore": "3u8hJUVTA4jH1wYAyUur7FFZVQ8H635K3tSHHF4ssjQ5",
+        "wormholeTokenBridge": "DZnkkTmCiFWfYTfT41X3Rd1kDgozqzxWaHqsw6W4x2oe",
+        "cctpMessageTransmitter": "CCTPmbSD7gX1bxKPAmg77w8oFzNFpaQiQUWD43TKaecd",
+        "cctpTokenMessenger": "CCTPiPYPc6AsJuwueEnWgSgucamXDZwBd53dQ11YiKX3",
+        "stakePool": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+        "marinade": "MarBmsSgKXdrN1egZf5sqe1TMai9K1rChYNDJgjq7aD",
+        "raydiumAmmV4": "HWy1jotHpo6UqeQxx49dpYYdQB8wj9Qk9MdxwjLvDHB8",
+        "raydiumCpmm": "CPMDWBwJDtYax9qW7AyRuVC19Cc4L4Vcy4n2BHAbHkCW",
+        "raydiumClmm": "devi51mZmdwUJGU9hjN27vEz64Gps7uUefqxg27EAtH",
+        "meteoraDlmm": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+        "meteoraDammV1": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB",
+        "meteoraDammV2": "cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG",
+        "orcaWhirlpool": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+        "phoenix": "PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY",
+        "pumpFun": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+        "pumpSwap": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+        "mangoV4": "4MangoMjqJ2firMokCjjGgoK8d4MXcrgL7XJaL3w6fVg",
+        "driftV2": "dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH",
+        "streamflow": "HqDGZjaVRXJ9MGRQEw7qDc2rAr6iH1n1kAQdCZaCMfMZ",
+        "sns": "namesLPneVptA9Z5rqUDD9tMTWEJwofgaYwp8cawRkX",
+        "squadsV4": "SQDS4ep65T869zMMBKyuUq6aD6EgTu8psMjkvj52pCf",
+        "splGovernance": "GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw",
+        "jupiterV6": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4"
+      }
+    },
+    "rubiconMainnet": {
+      "chainId": 7531,
+      "chainIdHex": "0x1d6b",
+      "name": "Rome Rubicon Mainnet",
+      "rpcUrl": "https://rubicon.mainnet.romeprotocol.xyz/",
+      "explorerUrl": "https://via.mainnet.romeprotocol.xyz/",
+      "romeEvmProgramId": "RomePq9X3iAoTr813HR7uRarafFDUJty6GdiEceYpzX",
+      "solanaMemoProgramId": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+      "jupiterV6ProgramId": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+      "meteoraDlmmProgramId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "raydiumClmmProgramId": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+      "orcaWhirlpoolProgramId": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+      "contractsSnapshot": {
+        "UniswapV3Factory": "0x02aed776a025",
+        "SwapRouterV3": "0x680b7645d034",
+        "ERC20SPLFactory": "0x4068aa74ae6e",
+        "wUSDC": "0x0952d233f9b3",
+        "wSOL": "0xc4e29e0fa113",
+        "wETH": "0x01e8b35792e9"
+      }
+    },
+    "transactions": [
+      {
+        "id": "deploy",
+        "action": "Deploy AtomicArbExecutor Contract",
+        "walletRole": "Deployer (Wallet #7)",
+        "walletAddress": "0x91cB572164c865Cbf323CF866FDa6e01e35C02D0",
+        "txHash": "0x554593805a74086eb4962f31f471ffbe60c98aa53086d7b844cfc10508899a41",
+        "solanaSig": "4q1iAnr2GxKuidQ11gBryPnaXTzuHjqbcfMYPDu3Ch1or3XnpXPk2pVCGBYhCpeCXPhUTyqAxSYfL82wgoeHLtDK",
+        "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x554593805a74086eb4962f31f471ffbe60c98aa53086d7b844cfc10508899a41",
+        "pair": "All Corridors",
+        "details": "Deployed Solidity ^0.8.28 AtomicArbExecutor with Rome CPI (0xFF..08) & Helper (0xFF..09)",
+        "timestamp": "2026-11-09T16:27:27.972Z"
+      },
+      {
+        "id": "sim-searcher-1",
+        "action": "Record Cross-VM Simulation",
+        "walletRole": "Searcher 1 (Wallet #13)",
+        "walletAddress": "0x11b416689687e51fbe35E3CdF32e65F1a656368a",
+        "txHash": "0xe1a7883bd376eecacfbc177d3f1bcc533dcb89d0d90faba69c3557fcb7b2ca51",
+        "solanaSig": "2gTvEYAAdau5nwrruZ15ESzxubAusZ2ErM38sj26PJSuum7RmyXrt8kND7vV8vnNkAneNsqKhY3QiYiVzrTzNgjk",
+        "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0xe1a7883bd376eecacfbc177d3f1bcc533dcb89d0d90faba69c3557fcb7b2ca51",
+        "pair": "wSOL/wUSDC",
+        "details": "Simulated 2,500 wUSDC on Rome Uniswap V3 vs Solana Meteora DLMM (+84 bps net spread)",
+        "blockNumber": 520442177,
+        "gasUsed": "6710521",
+        "timestamp": "2026-11-09T16:29:17.610Z"
+      },
+      {
+        "id": "arb-searcher-1",
+        "action": "Execute Atomic Arbitrage (Solana CPI)",
+        "walletRole": "Searcher 1 (Wallet #13)",
+        "walletAddress": "0x11b416689687e51fbe35E3CdF32e65F1a656368a",
+        "txHash": "0x5273974584183be5037ad970273d809739b0be5d01dcbadafe8cf398d9df7011",
+        "solanaSig": "5C5SN9SY2dUDfDxpYm5auKn7FdUDEjrAha38maCvjy39XrBbjuBTLWAPk3SBX3aYM2tHEGMu12MYNGg2DmwBnKhB",
+        "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x5273974584183be5037ad970273d809739b0be5d01dcbadafe8cf398d9df7011",
+        "pair": "wSOL/wUSDC",
+        "details": "Atomic Cross-VM Execution via 0xFF..08 CPI (+21.00 USDC profit, 84 bps realized)",
+        "blockNumber": 520442193,
+        "gasUsed": "6502241",
+        "timestamp": "2026-11-09T16:29:21.635Z"
+      },
+      {
+        "id": "sim-searcher-2",
+        "action": "Record Cross-VM Simulation",
+        "walletRole": "Searcher 2 (Wallet #17)",
+        "walletAddress": "0x8CAaC756b3Aaee8938A8D592Bf15b1f231363B9D",
+        "txHash": "0xcb4e224b6d7e7a4bae17d99cba60a0d72c76ea00fb882ff9c7080d2454c51655",
+        "solanaSig": "3zjfo3ELB9dqF5SBrXwNvvjmyMWoVPBxqh7JDmcwxfpFB1xdBBUkepuhWHddLJ3rnMLntf5KhrwSuuycZ22hnSTs",
+        "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0xcb4e224b6d7e7a4bae17d99cba60a0d72c76ea00fb882ff9c7080d2454c51655",
+        "pair": "wETH/wUSDC",
+        "details": "Simulated 4,000 wUSDC on Rome Uniswap V4 PoolManager vs Solana Raydium CLMM (+62 bps net spread)",
+        "blockNumber": 520442211,
+        "gasUsed": "5496401",
+        "timestamp": "2026-11-09T16:29:25.890Z"
+      },
+      {
+        "id": "arb-searcher-2",
+        "action": "Execute Atomic Arbitrage (Solana CPI)",
+        "walletRole": "Searcher 2 (Wallet #17)",
+        "walletAddress": "0x8CAaC756b3Aaee8938A8D592Bf15b1f231363B9D",
+        "txHash": "0x09655dfc1b95441af338021f8c266f4c2854f883a756d6dd468645d0d5ae8dc6",
+        "solanaSig": "5EW9g2Jjbp4Q1KwAURqYkJudBz5TocVy2UJsqX2bQ3j42JXBXXBo77uga3oLDAQkvYXyj2g81DRTjwwu5zb1vbsf",
+        "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x09655dfc1b95441af338021f8c266f4c2854f883a756d6dd468645d0d5ae8dc6",
+        "pair": "wETH/wUSDC",
+        "details": "Atomic Cross-VM Execution via 0xFF..08 CPI (+24.80 USDC profit, 62 bps realized)",
+        "blockNumber": 520442228,
+        "gasUsed": "4952841",
+        "timestamp": "2026-11-09T16:29:29.930Z"
+      },
+      {
+        "id": "claim-searcher-1",
+        "action": "Claim Arbitrage Profit",
+        "walletRole": "Searcher 1 (Wallet #13)",
+        "walletAddress": "0x11b416689687e51fbe35E3CdF32e65F1a656368a",
+        "txHash": "0x3bca6b679109938d8b569598c138eff554b63d31ec9492b64788f4eee4fcafd5",
+        "solanaSig": "5J3ZZjqsZzjQm4QsigBWD2JGMYn8d6u3wTUedRU6Pm3WA23iu4MaodZ7YLrgM1j6yaVNCqeYu1duNivhueKasEpp",
+        "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x3bca6b679109938d8b569598c138eff554b63d31ec9492b64788f4eee4fcafd5",
+        "pair": "wSOL/wUSDC",
+        "details": "Claimed 21.00 USDC net arbitrage profit to Searcher 1 account",
+        "blockNumber": 520442244,
+        "gasUsed": "345281",
+        "timestamp": "2026-11-09T16:29:33.866Z"
+      },
+      {
+        "id": "arb-2-searcher-2",
+        "action": "Execute Atomic Arbitrage (Solana CPI)",
+        "walletRole": "Searcher 2 (Wallet #17)",
+        "walletAddress": "0x8CAaC756b3Aaee8938A8D592Bf15b1f231363B9D",
+        "txHash": "0xe1243c50bbadd766231a24f55a61c41b95aeea17fa37e58c7529cc324f12f754",
+        "solanaSig": "4LMycbQZ8Fhv4jupWuTQEaMBjvebiMYFtREFP132TezksFD4mNfaMMaiEkw9PDS1cobnjJNsKp19WUBx4YtondTC",
+        "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0xe1243c50bbadd766231a24f55a61c41b95aeea17fa37e58c7529cc324f12f754",
+        "pair": "wSOL/wUSDC (CLMM)",
+        "details": "Atomic Cross-VM Execution via 0xFF..08 CPI (+9.18 USDC profit, 51 bps realized)",
+        "blockNumber": 520442261,
+        "gasUsed": "2524601",
+        "timestamp": "2026-11-09T16:29:37.823Z"
+      },
+      {
+        "id": "claim-searcher-2",
+        "action": "Claim Arbitrage Profit",
+        "walletRole": "Searcher 2 (Wallet #17)",
+        "walletAddress": "0x8CAaC756b3Aaee8938A8D592Bf15b1f231363B9D",
+        "txHash": "0xdb540dbcb02ce8ab22c85b19c41b01d6c85827abe9014b38033e32f9a109f827",
+        "solanaSig": "8YySNBNt3acBwgCHQZfZy5jt1T2TESm8swfaesMiSVzFm8Wy2gZg7UBw3eWNimWwkLtQTPYuXFQfWnBoCyzFpgS",
+        "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0xdb540dbcb02ce8ab22c85b19c41b01d6c85827abe9014b38033e32f9a109f827",
+        "pair": "wETH/wUSDC & wSOL/wUSDC",
+        "details": "Claimed 33.98 USDC cumulative arbitrage profit to Searcher 2 account",
+        "blockNumber": 520442276,
+        "gasUsed": "177641",
+        "timestamp": "2026-11-09T16:29:41.549Z"
+      }
+    ],
+    "onChainSummary": {
+      "totalSimulations": 2,
+      "totalExecutions": 3,
+      "totalVolumeUsdc": "8300.00",
+      "totalProfitGeneratedUsdc": "54.98",
+      "totalProfitClaimedUsdc": "54.98",
+      "contractExternalPda": "0xcfa0fefbd00af9a7f512e6448ca6370fead9cbe6ceb9ec9a92dcf510c4408431"
+    },
+    "wallets": {
+      "deployer": "0x91cB572164c865Cbf323CF866FDa6e01e35C02D0",
+      "searcher1": "0x11b416689687e51fbe35E3CdF32e65F1a656368a",
+      "searcher2": "0x8CAaC756b3Aaee8938A8D592Bf15b1f231363B9D"
+    }
+  }
+}

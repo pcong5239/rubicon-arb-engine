@@ -1,0 +1,22 @@
+# Node & Build
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Environment Variables (Mandatory Security Rule)
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel
+
+# Logs & OS
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+.vercel
